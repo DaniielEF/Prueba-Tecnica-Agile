@@ -42,6 +42,10 @@ class persona {
     
 }
 
-const user = new persona ('Daniel', 28)
 
-console.log(`Hola, soy ${user.nombre} y tengo ${user.edad} años`)
+function saludar(name, age){
+    const user = new persona (name, age)
+    console.log(`Hola, soy ${user.nombre} y tengo ${user.edad} años`)
+}
+
+saludar('Daniel', 28)
